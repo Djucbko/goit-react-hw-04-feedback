@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
-export const StatisticsList = styled.ul`
-  list-style: none;
-  padding: 0;
-  margin-left: 20px;
-  font-size: 35px;
-  `;
+export const ListItem = styled.li`
+display: flex;
+gap: 10px;
+`
